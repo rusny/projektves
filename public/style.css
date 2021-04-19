@@ -24,7 +24,9 @@ textarea {
 	display: flex;
 	margin-bottom: 150px;
 }
-
+#prikazy{
+	margin-left: 5vh;
+}
 img {
 	margin-left: 13vh;
 	margin-top: 12vh;
