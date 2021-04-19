@@ -14,20 +14,22 @@ body > section {
 
 textarea {
 	margin: 6vw;
-	margin-top: 10vh;
+	margin-top: 12vh;
 	margin-bottom: 2vh;
-	width: 30vw;
-	height: 60vh;
+	width: 25vw;
+	height: 50vh;
 	padding: 10px
 }
-img {
-	margin-left: 49vw;
-	margin-right: auto;
-	margin-top: -80vh;
-	margin-bottom: 3vh;
+#formular {
+	display: flex;
+	margin-bottom: 150px;
+}
 
+img {
+	margin-left: 13vh;
+	margin-top: 12vh;
+	margin-bottom: 3vh;
 	width: 80vh;
-	object-fit: contain;
 
 }
 header {
@@ -37,29 +39,21 @@ header {
 	color: white;
 	font-size: 60px;
 	
-	
   }
   
 .button {
 	background-color: #4CAF50;
 	border: none;
 	color: white;
-	
 	text-align: center;
-	text-decoration: none;
-	
 	font-size: 16px;
-	
-	cursor: pointer;
 	display: flex;
-	vertical-align: middle;
 	margin: 5px;
-	margin-left: 32vh;
+	margin-left: 27vh;
 	margin-right: 10vh;
 	padding: 1vh 3.5vh;
 	font-size: 30px;
-	border-radius: 3vh;
-	width: 8vw;
+	
   }
   footer{
     margin:100px;

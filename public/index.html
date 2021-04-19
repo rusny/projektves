@@ -3,12 +3,13 @@
 <head>
 	<title>Vector Script GUI</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	
 </head>
 
 <body>
-<header>VES Grafický editor</header>
-<main>
-<section>
+	<header>VES Grafický editor</header>
+
+<section id="formular">
 	<form method="POST" action="/render">
 		
 		<textarea name="ves">VES v1.0 600 400
@@ -23,16 +24,18 @@ LINE 0 0 599 499 1 #000000
 			</textarea>
 		<button class='button'>Zobraziť</button>
 	</form>
-</section>
-<section>
-	<img id="output" />
+
+	<div id="image">
+		<img id="output" />
+		 
+	</div>
 
 </section>
-<script type="text/javascript" src="script.js" ></script>
-</main>
+
+
 </body>
 <footer>
 	<ul>Ján Rusnák<br>
 		</ul></p></footer>
-	
+<script type="text/javascript" src="script.js" ></script>
 </html>
