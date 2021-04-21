@@ -19,3 +19,19 @@ function handleSubmit(e) {
 		})
 }
 document.querySelector("form").addEventListener("submit", handleSubmit); // Nastavíme formulár, aby pri submit udalosti spustil našu handleSubmit funkciu
+
+function clear() {
+	let color = document.querySelector("#color1").value
+	document.querySelector("textarea").value = 'VES v1.0 600 400'+ '\n' + 'CLEAR ' + color;
+	document.querySelector("#button1").click()
+}
+
+document.querySelector("#button2").addEventListener("click", clear);
+function greyscale() {
+	let text = document.querySelector("textarea").value
+	text = text + '\n' + "Grayscale"
+	document.querySelector("textarea").value = text
+	document.querySelector("#button1").click()
+	console.log(text)
+}
+document.querySelector("#button3").addEventListener("click", greyscale);

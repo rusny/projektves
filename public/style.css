@@ -35,6 +35,12 @@ textarea {
 	font-size: 1.4vh;
 	display: flex;
 }
+#pata{
+	display: flex;
+	font-size: 3vh;
+	margin-left: -25vh;
+	margin-bottom: -10vh;
+}
 #nadpis{
 	text-align: center;
 	font-size: 1.1vw;
@@ -55,8 +61,10 @@ header {
 	font-size: 60px;
 	font-family: "Lucida Console";
   }
-  
-.button {
+hr { 
+	
+  } 
+#button1 {
 	background-color: #4CAF50;
 	border: none;
 	color: white;
@@ -82,3 +90,16 @@ header {
     margin:100px;
 	font-size: 28px;
 	}
+#button3{
+	background-color: #4CAF50;
+	margin-top: 24vh;
+	margin-left: -1.8vw;
+	height: 4vh;
+	width: auto;
+	border: none;
+	font-size: 1.5vh;
+}
+#color1{
+	margin-top:18vh;
+	margin-left: -4vw;
+}

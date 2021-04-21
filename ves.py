@@ -1,6 +1,6 @@
 from PIL import Image
 from random import randint
-
+import colorsys
 
 def random_color():
   r = randint(0, 255)
@@ -260,11 +260,22 @@ def render_ves(text, output_width):
 
     elif prikaz =='\n':
       continue
+    elif prikaz == 'Grayscale':
+      grayscale(obr)
     else:
       print(f'Syntax error on line {row+1}: Unknown command {prikaz}.')
 
     row += 1
   return obr
+
+
+def grayscale(im):
+  for x in range(im.width):
+    for y in range(im.height):
+      rgb = im.getpixel((x,y))
+      hls = colorsys.rgb_to_hls(rgb[0]/255, rgb[1]/255, rgb[2]/255)
+      bw = colorsys.hls_to_rgb(hls[0], hls[1], 0)
+      im.putpixel((x,y), (int(bw[0]*255), int(bw[1]*255), int(bw[2]*255)))
 
 
 
