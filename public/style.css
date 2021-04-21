@@ -25,7 +25,20 @@ textarea {
 	margin-bottom: 150px;
 }
 #prikazy{
-	margin-left: 5vh;
+	text-align: center;
+	font-size: 30px;
+	font-family: "Lucida Console";
+	margin-bottom: 5vh;
+}
+#text1{
+	margin-left: 0vh;
+	font-size: 1.4vh;
+	display: flex;
+}
+#nadpis{
+	text-align: center;
+	font-size: 1.1vw;
+	margin-bottom: -1.1vw;
 }
 img {
 	margin-left: 13vh;
@@ -40,7 +53,7 @@ header {
 	background: #1abc9c;
 	color: white;
 	font-size: 60px;
-	
+	font-family: "Lucida Console";
   }
   
 .button {
@@ -55,7 +68,15 @@ header {
 	margin-right: 10vh;
 	padding: 1vh 3.5vh;
 	font-size: 30px;
-	
+}
+#button2 {
+	background-color: #4CAF50;
+	height: 4vh;
+	width: 4vw;
+	margin-top: 20vh;
+	margin-left: 5vw;
+	font-size: 1.5vh;
+	border: none;
   }
   footer{
     margin:100px;

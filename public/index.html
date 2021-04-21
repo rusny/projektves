@@ -27,17 +27,94 @@ LINE 0 0 599 499 1 #000000
 
 	<div id="image">
 		<img id="output" />
-		 
+		
 	</div>
-
+	<button id='button2'>CLEAR</button>
 </section>
-<section>
-	<p id="prikazy">
-		<h1>Príkaz CLEAR</h1><br>
+
+<h2 id="prikazy">Zoznam príkazov</h2>
+<section id="text1">
+	<p>
+	<pre>
+	 	<div id="nadpis"><b>CLEAR</b></div><br>
 		Slúži na vymazanie obrazovky zadanou farbou.<br>
 		Syntax: CLEAR COLOR<br>
 		Ukážka: CLEAR #B4D455<br>
-		</p>
+	</pre>
+    </p>
+	<p>
+	<pre>
+		<div id="nadpis"><b>LINE</b></div><br>
+		Slúži na vykreslenie úsečky AB hrúbky THICKNESS farbou COLOR.<br>
+		Syntax: LINE AX AY BX BY THICKNESS COLOR<br>
+		Ukážka: LINE 50 100 200 300 1 #FFFFFF<br>
+	</pre>		
+	</p>
+
+	<p>
+	<pre>
+		<div id="nadpis"><b>TRIANGLE</b></div><br>
+		Slúži na vykreslenie trojuholníka s vrcholmi ABC hrúbkou THICKNESS a farbou COLOR.<br>
+		Syntax: TRIANGLE AX AY BX BY CX CY THICKNESS COLOR<br>
+		Ukážka: TRIANGLE 50 100 200 300 150 200 1 #FFFFFF<br>
+	</pre>
+
+
+		
+	</p>
+</section>
+<section id="text1">
+	<p>
+	<pre>
+		<div id="nadpis"><b>FILL_TRIANGLE</b></div><br>
+		Slúži na vykreslenie vyplneného trojuholníka s vrcholmi ABC farbou COLOR.<br>
+		Syntax: FILL_TRIANGLE AX AY BX BY CX CY COLOR<br>
+		Ukážka: FILL_TRIANGLE 50 100 200 300 150 200 #AB123C<br>
+	</pre>	
+	</p>
+	
+	<p>
+	<pre>
+		<div id="nadpis"><b>CIRCLE</b></div><br>
+		Slúži na vykreslenie kružnice so stredom v bode S, polomerom R a to hrúbkou THICKNESS a farbou COLOR.<br>
+		Syntax: CIRCLE SX SY R THICKNESS COLOR<br>
+		Ukážka: CIRCLE 200 100 50 1 #FFFFFF<br>
+		
+	</pre>	
+	</p>
+</section>
+<section id="text1">
+	<p>
+	<pre>
+		<div id="nadpis"><b>FILL_CIRCLE</b></div><br>
+		Slúži na vykreslenie vyplneného kruhu so stredom v bode S, polomerom R a farbou COLOR.<br>
+		Syntax: FILL_CIRCLE SX SY R COLOR<br>
+		Ukážka: FILL_CIRCLE 200 100 50 #FFFFFF<br>
+	</pre>	
+	</p>
+	
+	<p>
+	<pre>
+		<div id="nadpis"><b>RECT</b></div><br>
+		Slúži na vykreslenie obdlžníka, ktorého ľavý horný vrchol je bod  A a má šírku WIDTH a výškú HEIGHT a je vykreslený hrúbkou THICKNESS a farbou COLOR.<br>
+		Syntax: RECT AX AY BX BY WIDTH HEIGHT THICKNESS COLOR<br>
+		Ukážka: RECT 50 100 150 200 1 #FFFFFF<br>
+	</pre>	
+	</p>
+</section>
+<section id="text1">
+	<p>
+	<pre>
+		<div id="nadpis"><b>FILL_RECT</b></div><br>
+		Slúži na vykreslenie vyplneného obdlžníka, ktorého ľavý horný vrchol je bod  A a má šírku WIDTH a výškú HEIGHT a je vykreslený farbou COLOR.<br>
+		Syntax: FILL_RECT AX AY WIDTH HEIGHT COLOR<br>
+		Ukážka: FILL_RECT 50 100 150 200 #AB123C<br>
+
+	</pre>	
+	</p>		
+
+
+
 </section>
 
 </body>
