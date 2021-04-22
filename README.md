@@ -1,1 +1,1 @@
-
+# Základné informácie o projekte
